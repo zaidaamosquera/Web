@@ -11,11 +11,13 @@
     </head>
     <body>
          <div>
-            <div>SZ</div>
-            <div> Peliculas  Series Generos</div>
+            <div class="logo">SZ</div>
+            <div class="menu" > Peliculas  Series Generos</div>
             
         </div>
         
-        
+        <a href="{{route("generos")}}"></a>
+
+
     </body>
 </html>
