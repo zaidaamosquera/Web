@@ -16,7 +16,7 @@
             
         </div>
         
-        <a href="{{route("generos")}}"></a>
+        <a href="{{route("generos")}}"> Generos</a>
 
 
     </body>
