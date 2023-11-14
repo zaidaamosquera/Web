@@ -1,7 +1,12 @@
 @import 'bootstrap';
 
+<<<<<<< HEAD
 body {background-color: black;
 
+=======
+body {
+    background-color: black;
+>>>>>>> 81476962934e275e5aeac1e6c9bd46f3990fcc88
 }
 
 .logo {
@@ -16,6 +21,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .menu {
 color: white;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
 margin-top: 0px;
 
 }
@@ -52,3 +58,7 @@ width: 100%;
 .seccion {
     margin-left: 40px;
 }
+=======
+margin-left: 40px;
+}
+>>>>>>> 81476962934e275e5aeac1e6c9bd46f3990fcc88
