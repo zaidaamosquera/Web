@@ -1,12 +1,14 @@
-body {
-    background-color: black;
+@import 'bootstrap';
+
+body {background-color: black;
+
 }
 
 .logo {
 color:white;
 font-size: 45px;
 margin-left:10px;
-margin-top: 15px;
+padding-top: 0px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -14,5 +16,39 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .menu {
 color: white;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-margin-left: 40px;
+margin-top: 0px;
+
+}
+
+.buscar {
+    background: green;
+    border-radius: 7px;
+    border: 0px;
+    margin-left: 0px;
+    width: 250px;
+}
+
+.encabezado {
+background-color: aqua;
+padding: 0px;
+height: 60px;
+overflow: hidden;
+padding-top: 15px;
+width: 100%;
+
+}
+
+.todos {
+    margin: 1px;
+    padding: 1px;
+    color: green;
+    float: left;
+}
+
+.guion {
+    list-style-type: none;
+    display: flex;
+}
+.seccion {
+    margin-left: 40px;
 }
