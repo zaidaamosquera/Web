@@ -1,64 +1,50 @@
 @import 'bootstrap';
 
-<<<<<<< HEAD
 body {background-color: black;
 
-=======
-body {
-    background-color: black;
->>>>>>> 81476962934e275e5aeac1e6c9bd46f3990fcc88
-}
-
-.logo {
-color:white;
-font-size: 45px;
-margin-left:10px;
-padding-top: 0px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-.menu {
-color: white;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-<<<<<<< HEAD
-margin-top: 0px;
-
-}
-
-.buscar {
-    background: green;
-    border-radius: 7px;
-    border: 0px;
-    margin-left: 0px;
-    width: 250px;
 }
 
 .encabezado {
-background-color: aqua;
-padding: 0px;
-height: 60px;
-overflow: hidden;
-padding-top: 15px;
-width: 100%;
+    background-color: green;
+    padding: 0px;
+    height: 60px;
+    overflow: hidden;
+    padding-top: 5px;
+    width: 100%;
+    
+    }
 
-}
+    .logo {
+        float: left;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        color: white;
+    }
 
-.todos {
-    margin: 1px;
-    padding: 1px;
-    color: green;
-    float: left;
-}
-
-.guion {
-    list-style-type: none;
+.uli {
+    list-style: none;
     display: flex;
+    flex-direction: row;
+
 }
-.seccion {
-    margin-left: 40px;
+
+.uli a {
+    text-decoration: none;
+    margin-left: 10px;
+
 }
-=======
-margin-left: 40px;
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+
 }
->>>>>>> 81476962934e275e5aeac1e6c9bd46f3990fcc88
+
+.iz {
+    display: flex;
+    flex-direction: row;
+
+
+    
+}

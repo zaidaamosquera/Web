@@ -19,3 +19,17 @@ Route::get('/', function () {
 
 
 Route::view("/welcome","generos")->name("generos");
+Route::view("/Peliculas", "peliculas")->name("Peliculas");
+Route::view("/Series", "series")->name("Series");
+Route::view("/Login", "login")->name("Login");
+Route::view("/Registrarse", "registrarse")->name("Registrarse");
+Route::view("/Inicio", "welcome")->name("Principal");
+Route::view("/Membresia", "membresia")->name("Membresia");
+Route::view("/Inicio", "welcome")->name("Inicio");
+Route::view("/Pago", "membresiap2")->name("Pago");
+
+
+
+
+
+
