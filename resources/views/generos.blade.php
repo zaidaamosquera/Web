@@ -15,7 +15,57 @@
 </head>
 
 <body>
+    <div id="menuu">
+        <div>
+            <img class="dl" src="imagenes/logito.png" width="150" height="150" alt="A"/>
+        </div>
+        <div >
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
+        <div>
+            <div>
+                <i class="bi bi-search"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="33" height="18" fill="white"
+                    class="bi bi-search " viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+                <input class="buscar" type="text" value="Buscar">
+            </div>
+        </div>
 
+
+        <div class="iz">
+            <a href="{{ route('Membresia') }}">
+                <i class="bi bi-lightning-charge"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="yellow"
+                    class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                </svg>
+            </a>
+
+        </div>
+
+        <a href="{{ route('Login') }}">
+            <i class="bi bi-person-circle"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white"
+                class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+            </svg>
+        </a>
+
+        <br>
+
+    </div>
+    </div>
 
     <div>
         <center>
@@ -81,7 +131,8 @@
                 <div><img id="paginasborder" alt="Hola" src="imagenes/demonslayer.jpeg" height="210px"
                         alt="Not Found"></div>
                 <div><img id="paginasborder" src="imagenes/note.jpeg" height="210px" alt="Not Found"></div>
-                <div><img id="paginasborder" src="imagenes/fullmetal.jpeg" height="210px" alt="Not Found"> Thinks</div>
+                <div><img id="paginasborder" src="imagenes/fullmetal.jpeg" height="210px" alt="Not Found"> Thinks
+                </div>
 
                 <div><img id="paginasborder" src="imagenes/ghoul.jpeg" height="210px" alt="Not Found"></div>
                 <div><img id="paginasborder" src="imagenes/swordart.jpeg" height="210px" alt="Not Found"></div>
@@ -93,74 +144,74 @@
 
 
 
-           
 
 
 
 
-        </div>
 
-        <div id="poster"></div>
-        <style>
-            /* Estilos para los botones previos y siguientes */
-            .slick-prev,
-            .slick-next {
-                font-size: 20px;
-                line-height: 1;
-                position: absolute;
-                top: 50%;
-                z-index: 1;
-                width: 90px;
-                height: 40px;
-                -webkit-transform: translateY(-50%);
-                -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
-                cursor: pointer;
-                background-color: #00ffff;
-                color: #000000;
-                border: none;
-                border-radius: 50%;
-            }
+            </div>
 
-            /* Estilos al pasar el cursor sobre los botones */
-            .slick-prev:hover,
-            .slick-next:hover {
-                background-color: #00ffff;
-            }
+            <div id="poster"></div>
+            <style>
+                /* Estilos para los botones previos y siguientes */
+                .slick-prev,
+                .slick-next {
+                    font-size: 20px;
+                    line-height: 1;
+                    position: absolute;
+                    top: 50%;
+                    z-index: 1;
+                    width: 90px;
+                    height: 40px;
+                    -webkit-transform: translateY(-50%);
+                    -ms-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    cursor: pointer;
+                    background-color: #00ffff;
+                    color: #000000;
+                    border: none;
+                    border-radius: 50%;
+                }
 
-            /* Estilos para el botón previo */
-            .slick-prev {
-                left: 10px;
-            }
+                /* Estilos al pasar el cursor sobre los botones */
+                .slick-prev:hover,
+                .slick-next:hover {
+                    background-color: #00ffff;
+                }
 
-            /* Estilos para el botón siguiente */
-            .slick-next {
-                right: 10px;
-            }
-        </style>
-        <script>
-            $(document).ready(function() {
-                $('.slick-carousel').slick({
-                    slidesToShow: 6,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 3500,
-                    responsive: [{
-                            breakpoint: 768,
-                            settings: {
-                                slidesToShow: 2
+                /* Estilos para el botón previo */
+                .slick-prev {
+                    left: 10px;
+                }
+
+                /* Estilos para el botón siguiente */
+                .slick-next {
+                    right: 10px;
+                }
+            </style>
+            <script>
+                $(document).ready(function() {
+                    $('.slick-carousel').slick({
+                        slidesToShow: 6,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplaySpeed: 3500,
+                        responsive: [{
+                                breakpoint: 768,
+                                settings: {
+                                    slidesToShow: 2
+                                }
+                            },
+                            {
+                                breakpoint: 480,
+                                settings: {
+                                    slidesToShow: 1
+                                }
                             }
-                        },
-                        {
-                            breakpoint: 480,
-                            settings: {
-                                slidesToShow: 1
-                            }
-                        }
-                    ]
+                        ]
+                    });
                 });
-            });
-        </script>
+            </script>
 
 
 </body>

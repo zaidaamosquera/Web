@@ -23,10 +23,13 @@ Route::view("/Peliculas", "peliculas")->name("Peliculas");
 Route::view("/Series", "series")->name("Series");
 Route::view("/Login", "login")->name("Login");
 Route::view("/Registrarse", "registrarse")->name("Registrarse");
-Route::view("/Inicio", "welcome")->name("Principal");
-Route::view("/Membresia", "membresia")->name("Membresia");
+
+// Route::view("/Inicio", "welcome")->name("Principal");
 Route::view("/Inicio", "welcome")->name("Inicio");
+
+Route::view("/Membresia", "membresia")->name("Membresia");
 Route::view("/Pago", "membresiap2")->name("Pago");
+Route::view("/generos", "generos")->name("generos");
 
 
 

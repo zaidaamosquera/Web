@@ -55,7 +55,7 @@
             <input class="input" type="password">
         </div>
         </form>
-        <a href="{{ route('Principal') }}" class="btn-neon">
+        <a href="{{ route('Inicio') }}" class="btn-neon">
             <span id="span1"></span>
             <span id="span2"></span>
             <span id="span3"></span>
