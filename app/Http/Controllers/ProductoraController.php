@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use Illuminate\Support\Facades\DB;
+
 class ProductoraController extends Controller
 {
     /**
@@ -11,7 +13,9 @@ class ProductoraController extends Controller
      */
     public function index()
     {
-        //
+
+            $p = DB::table("Productoras")->get();
+            return $p;
     }
 
     /**

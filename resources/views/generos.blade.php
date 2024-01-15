@@ -17,19 +17,19 @@
 <body>
     <div id="menuu">
         <div>
-            <img class="dl" src="imagenes/logito.png" width="150" height="150" alt="A"/>
+            <img class="dl" src="imagenes/logito.png" width="150" height="150" alt="A" />
         </div>
-        <div >
-            <select class="form-select" aria-label="Default select example">
+        <div>
+            <select id="col0" class="form-select" aria-label="Default select example">
                 <option selected>Open this select menu</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option id="col1" value="1">One</option>
+                <option id="col2" value="2">Two</option>
+                <option id="col3" value="3">Three</option>
             </select>
         </div>
         <div>
             <div>
-                <i class="bi bi-search"></i>
+                <i id="search" class="bi bi-search"></i>
                 <svg xmlns="http://www.w3.org/2000/svg" width="33" height="18" fill="white"
                     class="bi bi-search " viewBox="0 0 16 16">
                     <path
@@ -69,7 +69,10 @@
 
     <div>
         <center>
-            <h1 id="tle">Peliculas!</h1>
+            <div id="peel">
+                <button>Lista</button>
+                <h1 id="tle">Peliculas!</h1><a href="{{ route("RegistroPelicula")}}">Registrar Peliculas</a>
+            </div>
             <br>
             <br>
         </center>

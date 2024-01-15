@@ -19,7 +19,13 @@ class PeliculaController extends Controller
      */
     public function create()
     {
-        //
+        $GenContr = new GenerosController();
+        $ProduContr = new ProductoraController();
+
+        $allgen = $GenContr->index();
+        $allPro = $ProduContr->index();
+
+        return view("RegistroPeliculas",["GenerContr" => $allgen, "ProduContr" => $allPro]);
     }
 
     /**
@@ -27,7 +33,9 @@ class PeliculaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            "TituloPeliculas"=>["required","string"],
+            "FechaEstreno"=>["required","date"]]);
     }
 
     /**

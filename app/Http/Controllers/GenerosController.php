@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use Illuminate\Support\Facades\DB;
+
 class GenerosController extends Controller
 {
     /**
@@ -11,7 +13,8 @@ class GenerosController extends Controller
      */
     public function index()
     {
-        
+        $g = DB::table("Generos")->get();
+        return $g;
     }
 
     /**

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PeliculaController;
+use App\Models\Pelicula;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,6 +33,8 @@ Route::view("/Membresia", "membresia")->name("Membresia");
 Route::view("/Pago", "membresiap2")->name("Pago");
 Route::view("/generos", "generos")->name("generos");
 
+Route::get('/Registro-Peliculas', [PeliculaController::class,"create"])->name("RegistroPelicula");
+Route::post('/Registrar-Peli', [PeliculaController::class,"store"])->name("RegistroPeli");
 
 
 
