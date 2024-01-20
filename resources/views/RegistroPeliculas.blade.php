@@ -37,7 +37,7 @@
 
 
         <label for="">Productoras</label>
-        <select name="Productoras_idProductas" >
+        <select name="Productoras_idProductoras" >
             @foreach ($ProduContr as $ProdContr)
                 <option value="{{ $ProdContr->idProductoras }}">{{ $ProdContr->NombreProductora }} {{ $ProdContr->Nacionalidad }}</option>
             @endforeach

@@ -12,4 +12,5 @@ class Pelicula extends Model
     protected $primaryKey = "idPeliculas";
     public $timestamps = false;
 
+    protected $guarded = [];
 }

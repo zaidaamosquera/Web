@@ -22,9 +22,12 @@
         <div>
             <select id="col0" class="form-select" aria-label="Default select example">
                 <option selected>Open this select menu</option>
-                <option id="col1" value="1">One</option>
+                <option id="col1" value="1">
+                    <a href="#f">f</a>
+                </option>
                 <option id="col2" value="2">Two</option>
                 <option id="col3" value="3">Three</option>
+                <a href="#nof?">nof?</a>
             </select>
         </div>
         <div>
@@ -65,13 +68,19 @@
         <br>
 
     </div>
+
+    <center><button><a href="{{ route('RegistrarG') }}">Registrar Genero</a></button> </center>
+    <br>
+
     </div>
 
     <div>
         <center>
             <div id="peel">
                 <button>Lista</button>
-                <h1 id="tle">Peliculas!</h1><a href="{{ route("RegistroPelicula")}}">Registrar Peliculas</a>
+
+                <h1 id="tle">Peliculas!</h1> <button><a href="{{ route('RegistroPelicula') }}">Registrar
+                        Peliculas</a></button>
             </div>
             <br>
             <br>
