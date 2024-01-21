@@ -2,20 +2,20 @@
 
 * {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #001A39;
+    background-color: black;
 
 
 }
 
 body {
     margin: 0;
-    background-color: #001A39;
+    background-color: black;
 
 }
 
 
 #dvv {
-    background-color: #1e2747;
+    background-color: black;
     height: 150px;
     display: flex;
     align-items: center;
@@ -63,13 +63,13 @@ body {
 #nav {
     display: flex;
     flex-direction: row;
-    background-color: #1e2747;
+    background-color: black;
     align-items: center;
     width: 100%;
 }
 
 #is {
-    background-color: #1e2747;
+    background-color: black;
     color: white;
     display: flex;
     align-content: center;
@@ -83,7 +83,7 @@ button:hover {
 }
 
 #iz {
-    background-color: #007aff;
+    background-color: black;
     ;
     color: white;
     display: flex;
@@ -98,7 +98,7 @@ button:hover {
 }
 
 #sz {
-    background-color: #1e2747;
+    background-color: black;
     color: white;
     border: 1px solid blue;
     border-radius: 40px;
@@ -131,12 +131,15 @@ button:hover {
 }
 
 #tle {
-    color: aqua;
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 100px;
+    font-family: 10px;
 
 }
 
 #iss {
-    background-color: #1e2747;
+    background-color: black;
 
     justify-content: center;
     margin-top: 50px;
@@ -170,7 +173,7 @@ button:hover {
 }
 
 #isss {
-    background-color: #1e2747;
+    background-color: black;
     width: 500px;
     height: 530px;
     margin-top: 50px;
@@ -179,7 +182,7 @@ button:hover {
 }
 
 #dpd {
-    background-color: #1e2747;
+    background-color: black;
     border: aqua solid 2px;
     margin-inline: 5px;
     color: white;
@@ -196,7 +199,7 @@ button:hover {
 }
 
 #xd {
-    background-color: #1e2747;
+    background-color: black;
 
 }
 
@@ -241,9 +244,9 @@ button:hover {
 
 
 #paginasborder {
-    border-radius: 50px;
-    border: aqua solid 10px;
+    border:0px;
     cursor: pointer;
+    margin-left: 40px;
 
 }
 
@@ -272,7 +275,7 @@ img[id="paginasborder"]:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #001A39;
+    background-color: black;
 }
 
 .shining-text {
@@ -301,7 +304,7 @@ img[id="paginasborder"]:hover {
 .mss {
     width: 80px;
     height: 80px;
-    background-color: rgb(22, 0, 120);
+    background-color: black;
     color: aqua;
     display: flex;
     justify-content: center;
@@ -339,7 +342,7 @@ img[id="paginasborder"]:hover {
 }
 
 #col0 {
-    background-color: #001A39;
+    background-color: black;
     color: aqua;
 }
 
@@ -357,3 +360,123 @@ img[id="paginasborder"]:hover {
 
 }
 
+
+.contenedor {
+
+border: 1px solid black;
+height: 350px;
+width: 300px;
+background-color: black;
+
+
+}
+
+.portada {
+    margin-top: 20px;
+    background-color: black;
+
+
+}
+.titulo {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.ver {
+    background-color: #501761;
+    position: relative;
+    display: inline-block;
+    padding: 8px 48px;
+    color: white;
+    font-size: 14px;
+    overflow: hidden;
+    transition: 0.2s;
+    border: 2px solid #501761;
+    border-radius: 5px;
+    width: 220px;
+    height: 40px;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+
+}
+
+.ver:hover {
+    background: #501761;
+    box-shadow: 0 0 5px #a945c7, 0 0 20px purple, 0 0 40px purple;
+    transition-delay: 1s;
+}
+
+.ver span {
+    position: absolute;
+    display: block;
+}
+
+#span1 {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #a945c7);
+}
+
+.ver:hover #span1 {
+    left: 100%;
+    transition: 1s;
+}
+
+#span3 {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #a945c7);
+}
+
+.ver:hover #span3 {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#span2 {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #a945c7);
+}
+
+.ver:hover #span2 {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4 {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #a945c7);
+}
+
+.ver:hover #span4 {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+
+
+border-radius: 5px;
+border: 2px solid green;
+height: 40px;
+width: 150px;
+margin-top: 15px;
+background-color: aqua;
+color: white;

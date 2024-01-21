@@ -71,22 +71,24 @@
         <center>
             <div id="peel">
                 <button>Lista</button>
-                <h1 id="tle">Peliculas!</h1><a href="{{ route("RegistroPelicula")}}">Registrar Peliculas</a>
+                <h1 id="tle">Peliculas!</h1><a href="{{ route('RegistroPelicula') }}">Registrar Peliculas</a>
             </div>
             <br>
             <br>
         </center>
+
+
         <div id="paginas" style="height: fit-content;" class="slick-carousel">
 
 
-
+    
             <div><img id="paginasborder" src="imagenes/ruso.jpg" height="210px" alt="Not Found"></div>
             <div><img id="paginasborder" src="imagenes/mario.jpg" height="210px" alt="Not Found"></div>
             <div><img id="paginasborder" src="imagenes/devo.jpg" height="210px" alt="Not Found"></div>
             <div><img id="paginasborder" src="imagenes/gg3.jpg" height="210px" alt="Not Found"></div>
             <div><img id="paginasborder" src="imagenes/ij.webp" height="210px" alt="Not Found"></div>
             <div><img id="paginasborder" src="imagenes/phathan.jpg" height="210px" alt="Not Found"></div>
-            <div><img id="paginasborder" src="imagenes/raqa.jfif" height="210px" alt="Not Found"></div>
+            <div><img id="paginasborder" src="imagenes/raqa.jfif" height="220px" alt="Not Found"></div>
             <div><img id="paginasborder" src="imagenes/encant.jfif" height="210px" alt="Not Found"></div>
             <div><img id="paginasborder" src="imagenes/ofering.jpg" height="210px" alt="Not Found"></div>
 
@@ -97,11 +99,11 @@
             <br>
             <br>
 
-            <center>
-                <h1 id="tle">Series!</h1>
+            
+                <div id="tle">Series</div> 
                 <br>
                 <br>
-            </center>
+            
             <div id="paginas" style="height: fit-content;" class="slick-carousel">
 
 
@@ -214,7 +216,22 @@
                         ]
                     });
                 });
-            </script>
+            </script> <br>
+
+
+            <div class="contenedor">
+                <div class="portada">
+                    <div>
+                        <center><img src="imagenes/descarga.jpeg" height="210px" alt="Not Found"> </center>
+                    </div>
+                </div>
+                <center>
+                    <div class="titulo"> GUARDIANES DE LA GALAXIA</div>
+                </center>
+                <center>
+                    <button class="ver"> <i class="bi bi-play-fill" color white ></i> ver ahora </button>
+                </center>
+            </div>
 
 
 </body>

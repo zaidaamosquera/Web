@@ -25,6 +25,8 @@ Route::view("/Peliculas", "peliculas")->name("Peliculas");
 Route::view("/Series", "series")->name("Series");
 Route::view("/Login", "login")->name("Login");
 Route::view("/Registrarse", "registrarse")->name("Registrarse");
+Route::view("/anime","anime")->name("Anime");
+
 
 // Route::view("/Inicio", "welcome")->name("Principal");
 Route::view("/Inicio", "welcome")->name("Inicio");
@@ -36,7 +38,7 @@ Route::view("/generos", "generos")->name("generos");
 Route::get('/Registro-Peliculas', [PeliculaController::class,"create"])->name("RegistroPelicula");
 Route::post('/Registrar-Peli', [PeliculaController::class,"store"])->name("RegistroPeli");
 
-
+Route::view("/detalle", "detalle")->name("Detalle");
 
 
 

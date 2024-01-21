@@ -18,7 +18,6 @@
             <li><a href=" {{ route('Peliculas') }}">Peliculas</a></li>
             <li><a href="{{ route('Series') }}">Series</a></li>
             <li><a href="{{ route('Anime') }}">Anime</a></li>
-
     
     
             <select class="sele">
@@ -70,31 +69,31 @@
     </div>
 
 <div class="organizador">
-<div class="titulope">SERIES</div>
+<div class="titulope">ANIME</div>
 
 <div class="fila">
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-19 at 12.44.20 PM.jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.29.00 PM.jpeg" height="200px" alt=""> 
+    <div class="descrip">LOS 7 PECADOS CAPITALES</div>
+    </div>
+    <div class="individual">
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.29.00 PM (3).jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-19 at 12.44.19 PM.jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.29.00 PM (2).jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-19 at 12.44.19 PM (2).jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.29.00 PM (1).jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-19 at 12.44.18 PM.jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.59 PM.jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-19 at 12.44.19 PM (1).jpeg" height="200px" width="135px" alt=""> 
-    <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
-    </div>
-    <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.53 PM.jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.59 PM (4).jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
  
@@ -103,27 +102,27 @@
 
 <div class="fila">
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.53 PM (2).jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.59 PM (3).jpeg" height="200px" width="135px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.53 PM (1).jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.59 PM (2).jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.52 PM.jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.59 PM (1).jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.52 PM (5).jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.58 PM.jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.52 PM (4).jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.58 PM (4).jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.52 PM (3).jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.58 PM (3).jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
  
@@ -131,52 +130,52 @@
 </div>
 <div class="fila">
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.52 PM (1).jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.58 PM (1).jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.51 PM.jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.57 PM.jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.51 PM (5).jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.57 PM (3).jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.51 PM (4).jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.57 PM (2).jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.51 PM (3).jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.57 PM (1).jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="individual">
-        <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.51 PM (2).jpeg" height="200px" alt=""> 
+        <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.56 PM.jpeg" height="200px" alt=""> 
     <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
     </div>
     <div class="fila">
         <div class="individual">
-            <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.51 PM (1).jpeg" height="200px" alt=""> 
+            <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.56 PM (2).jpeg" height="200px" alt=""> 
         <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
         </div>
         <div class="individual">
-            <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.50 PM.jpeg" height="200px"  width="130px"> 
+            <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.56 PM (1).jpeg" height="200px" alt=""> 
         <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
         </div>
         <div class="individual">
-            <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.50 PM (3).jpeg" height="200px" alt=""> 
+            <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.55 PM.jpeg" height="200px" width="138px" alt=""> 
         <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
         </div>
         <div class="individual">
-            <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.50 PM (2).jpeg" height="200px" alt=""> 
+            <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.55 PM (1).jpeg" height="200px" alt=""> 
         <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
         </div>
         <div class="individual">
-            <img src="imagenes/WhatsApp Image 2024-01-21 at 1.48.50 PM (1).jpeg" height="200px"alt=""> 
+            <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.54 PM.jpeg" height="200px"alt=""> 
         <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
         </div>
         <div class="individual">
-            <img src="imagenes/WhatsApp Image 2024-01-21 at 1.31.27 PM.jpeg" height="200px" alt=""> 
+            <img src="imagenes/WhatsApp Image 2024-01-21 at 2.28.54 PM (3).jpeg" height="200px" alt=""> 
         <div class="descrip">RAPIDOS Y FURIOSO ULTRA 4</div>
         </div>
      
@@ -195,4 +194,3 @@
 
     
 </body>
-</html>
