@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Pelicula;
 
 class PeliculaController extends Controller
 {
@@ -25,7 +26,7 @@ class PeliculaController extends Controller
         $allgen = $GenContr->index();
         $allPro = $ProduContr->index();
 
-        return view("RegistroPeliculas",["GenerContr" => $allgen, "ProduContr" => $allPro]);
+        return view("RegistroPeliculas", ["GenerContr" => $allgen, "ProduContr" => $allPro]);
     }
 
     /**
@@ -34,8 +35,19 @@ class PeliculaController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            "TituloPeliculas"=>["required","string"],
-            "FechaEstreno"=>["required","date"]]);
+            "TituloPeliculas" => ["required", "string"],
+            "FechaEstreno" => ["required", "date"]
+        ]);
+
+
+        Pelicula::create([
+            "TituloPeliculas" => $request->TituloPeliculas,
+            "FechaEstreno" => $request->FechaEstreno,
+            "Generos_idGeneros" => $request->Generos_idGeneros,
+            "Productoras_idProductoras" => $request->Productoras_idProductoras
+        ]);
+
+        return to_route("RegistroPelicula")->with("Mensaje","DSPSMensaje");
     }
 
     /**

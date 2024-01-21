@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\GenerosController;
 use App\Http\Controllers\PeliculaController;
 use App\Models\Pelicula;
 use Illuminate\Support\Facades\Route;
@@ -25,20 +26,33 @@ Route::view("/Peliculas", "peliculas")->name("Peliculas");
 Route::view("/Series", "series")->name("Series");
 Route::view("/Login", "login")->name("Login");
 Route::view("/Registrarse", "registrarse")->name("Registrarse");
+<<<<<<< HEAD
 Route::view("/anime","anime")->name("Anime");
 
+=======
+Route::get("/RegistrarG",[GenerosController::class,"show"])->name("RegistrarG");
+>>>>>>> 5d06c0cec8b34b8928f86d6fb661d82ba1127f39
 
 // Route::view("/Inicio", "welcome")->name("Principal");
 Route::view("/Inicio", "welcome")->name("Inicio");
 
 Route::view("/Membresia", "membresia")->name("Membresia");
 Route::view("/Pago", "membresiap2")->name("Pago");
-Route::view("/generos", "generos")->name("generos");
+Route::view("/Pago", "membresiap2")->name("Pago");
+Route::view("/generos", "generos")->name("genero");
 
 Route::get('/Registro-Peliculas', [PeliculaController::class,"create"])->name("RegistroPelicula");
+Route::get('/Registro-Generos', [GenerosController::class,"create"])->name("RegistroGenero");
 Route::post('/Registrar-Peli', [PeliculaController::class,"store"])->name("RegistroPeli");
+<<<<<<< HEAD
 
 Route::view("/detalle", "detalle")->name("Detalle");
+=======
+Route::post('/Registrar-', [GenerosController::class,"store"])->name("RegistroGen");
+Route::delete("/RegistrarG/{idGeneros}", [GenerosController::class,"destroy"])->name("DeletG");
+Route::patch("/RegistrarG/{idGeneros}", [GenerosController::class,"update"])->name("EditG");
+
+>>>>>>> 5d06c0cec8b34b8928f86d6fb661d82ba1127f39
 
 
 
