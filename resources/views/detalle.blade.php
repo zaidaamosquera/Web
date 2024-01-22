@@ -74,14 +74,31 @@
         <div class="zal">
             <img src="imagenes/El_juego_del_calamar_29.webp" width="180px" height="260px" alt="">
             <div class="le">
+                
                 <div class="letra"> JUEGO DEL CALAMAR </div> <br>
                 <div class="letr">Fecha: 2020 </div> <br>
                 <div class="letr"> Capitulos: 12</div> <br>
+                <a href="{{ route('Lista') }}" class="lix">
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16"
+                    fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+                </svg> Agregar a lista
+                </a>
             </div>
+          
         </div>
         <div class="resumen">
             <div class="re">RESUMEN</div>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum."</p>
         </div>
         <div class="capitulos">
 
